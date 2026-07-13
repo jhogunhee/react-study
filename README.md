@@ -1,12 +1,11 @@
 # react-study
-
-백엔드 개발자의 리액트 학습 기록. react.dev 공식 문서 기반 6주 커리큘럼.
+리액트 학습 기록
 
 ## 실행 방법
 
 ```bash
 npm install
-npm run dev   # http://localhost:3000
+npm run dev   
 ```
 
 ## 커리큘럼
