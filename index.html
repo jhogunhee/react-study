@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React Study</title>
+  </head>
+  <body>
+    <!--
+      리액트 앱 전체가 이 div 하나에 렌더링됨 (SPA의 핵심)
+      - 서버가 페이지마다 HTML을 내려주는 방식(SSR/MPA)과 달리,
+        HTML은 이 빈 껍데기 하나뿐이고 나머지는 전부 JS가 그림
+    -->
+    <div id="root"></div>
+
+    <!-- 진입점 JS. type="module"이라 import/export 문법 사용 가능 -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
