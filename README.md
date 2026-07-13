@@ -13,7 +13,7 @@ npm run dev
 | 챕터 | 주제 | 상태 |
 |------|------|------|
 | ch01 | JSX, 컴포넌트, props, 조건부/리스트 렌더링 | ✅ 완료 |
-| ch02 | useState, 이벤트, 폼, state 끌어올리기 | 🔄 진행 중 |
+| ch02 | useState, 이벤트, 폼, state 끌어올리기 | ✅ 완료 |
 | ch03 | useEffect, 데이터 페칭, 로딩/에러 처리 | ⬜ |
 | ch04 | 렌더링 최적화 (memo/useMemo/useCallback), 커스텀 훅 | ⬜ |
 | ch05 | React Router, Context, Zustand | ⬜ |
