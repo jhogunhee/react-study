@@ -5,36 +5,36 @@
 
 ```bash
 npm install
-npm run dev   
+npm run dev
 ```
 
 ## 커리큘럼
 
-| 주차 | 주제 | 상태 |
+| 챕터 | 주제 | 상태 |
 |------|------|------|
-| 1주차 | JSX, 컴포넌트, props, 조건부/리스트 렌더링 | 🔄 진행 중 |
-| 2주차 | useState, 이벤트, 폼, state 끌어올리기 | ⬜ |
-| 3주차 | useEffect, 데이터 페칭, 로딩/에러 처리 | ⬜ |
-| 4주차 | 렌더링 최적화 (memo/useMemo/useCallback), 커스텀 훅 | ⬜ |
-| 5주차 | React Router, Context, Zustand | ⬜ |
-| 6주차~ | TanStack Query, TypeScript, WMS 프로젝트 적용 | ⬜ |
+| ch01 | JSX, 컴포넌트, props, 조건부/리스트 렌더링 | ✅ 완료 |
+| ch02 | useState, 이벤트, 폼, state 끌어올리기 | 🔄 진행 중 |
+| ch03 | useEffect, 데이터 페칭, 로딩/에러 처리 | ⬜ |
+| ch04 | 렌더링 최적화 (memo/useMemo/useCallback), 커스텀 훅 | ⬜ |
+| ch05 | React Router, Context, Zustand | ⬜ |
+| ch06~ | TanStack Query, TypeScript, 실전 프로젝트 | ⬜ |
 
 ## 구조
 
 ```
 src/
-├── main.jsx        # 진입점
-├── App.jsx         # 루트 컴포넌트 (주차별 실습 교체 지점)
-├── week1/          # 주차별 실습 코드
-├── week2/
+├── main.jsx
+├── App.jsx
+├── ch01/
+├── ch02/
 └── ...
-notes/              # 개념 정리 마크다운
+notes/
 ```
 
 ## 커밋 컨벤션
 
 - `feat: useState 카운터 실습`
 - `docs: hooks 개념 정리`
-- `refactor: ProductCard 컴포넌트 분리`
+- `chore: 폴더 구조 변경`
 
-실습 단위(개념 하나)마다 커밋. 하루치 몰아서 커밋 금지.
+실습 단위(개념 하나)마다 커밋.
