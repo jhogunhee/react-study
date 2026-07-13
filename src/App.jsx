@@ -1,5 +1,5 @@
-import EmployeeList from './week1/practice/EmployeeList'
-import OrderList from './week1/practice/OrderList'
+import EmployeeList from './ch01/practice/EmployeeList'
+import OrderList from './ch01/practice/OrderList'
 
 function App() {
   return (
