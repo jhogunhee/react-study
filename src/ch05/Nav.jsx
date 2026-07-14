@@ -1,12 +1,11 @@
 // TODO 1: react-router-dom에서 Link import
 // - Link는 <a>랑 비슷하지만, 페이지를 새로고침하지 않고 라우팅해줌
 import { Link } from 'react-router-dom';
-// TODO 4: '@/ch05/ThemeContext'에서 useTheme import
-import { useTheme } from '@/ch05/ThemeContext';
+import useThemeStore from '@/ch05/themeStore';
 
 function Nav() {
   // TODO 5: useTheme()으로 theme, toggleTheme 꺼내기
-  const { theme, toggleTheme } = useTheme();
+  const { theme, toggleTheme } = useThemeStore();
 
   return (
     <nav className="flex gap-4 mb-6 pb-4 border-b border-gray-200">

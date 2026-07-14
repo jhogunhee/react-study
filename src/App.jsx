@@ -4,12 +4,11 @@ import UserList from '@/ch03/UserList'
 import Nav from '@/ch05/Nav'
 import UserDetail from '@/ch05/UserDetail'
 import { Routes, Route } from 'react-router-dom';
-// TODO 7: '@/ch05/ThemeContext'에서 useTheme import
-import { useTheme } from '@/ch05/ThemeContext';
+import useThemeStore from '@/ch05/themeStore';
 
 function App() {
   // TODO 8: useTheme()으로 theme 꺼내기
-  const { theme } = useTheme();
+  const { theme } = useThemeStore();
 
   return (
     <div className={`max-w-2xl mx-auto p-6 font-sans min-h-screen
