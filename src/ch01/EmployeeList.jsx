@@ -1,4 +1,4 @@
-import EmployeeCard from './EmployeeCard'
+import EmployeeCard from '@/ch01/EmployeeCard'
 
 // TODO: 아래 데이터를 map으로 렌더링해보세요
 const employees = [

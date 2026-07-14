@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import FilterButtons from './FilterButtons'
+import FilterButtons from '@/ch02/FilterButtons'
 
 function TodoList() {
   // TODO 1: todos 상태 선언 (초기값: 빈 배열)

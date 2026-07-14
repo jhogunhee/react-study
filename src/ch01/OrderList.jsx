@@ -1,4 +1,4 @@
-import OrderRow from './OrderRow'
+import OrderRow from '@/ch01/OrderRow'
 
 const orders = [
   { id: 'ORD-001', name: '갤럭시 버즈4 프로', qty: 2, price: 279000, status: 'shipped' },
