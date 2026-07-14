@@ -1,25 +1,7 @@
-import { useState, useEffect } from 'react'
+import useFetch from '@/ch04/useFetch';
 
 function UserList() {
-  // TODO 1: users, loading, error 상태 선언
-  const [users, setUsers] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-
-  // TODO 2: useEffect로 컴포넌트가 처음 렌더링될 때 데이터 fetch
-  // - fetch('https://jsonplaceholder.typicode.com/users')
-  useEffect(() => {
-      fetch('https://jsonplaceholder.typicode.com/users')
-        .then(res => res.json())
-        .then(data => {
-            setUsers(data);
-            setLoading(false);
-        })
-        .catch(err => {
-            setError(err.message)
-            setLoading(false);
-        })
-  }, [])
+  const { data, loading, error } = useFetch('https://jsonplaceholder.typicode.com/users');
 
   return (
     <div className="p-4 border border-gray-200 rounded-lg">
@@ -31,7 +13,7 @@ function UserList() {
       {error && `에러 발생: ${error}`}
 
       {/* TODO 5: 로딩 끝났고 에러도 없을 때 users.map으로 이름/이메일 렌더링 */}
-      {!loading && !error && users.map(user => (
+      {!loading && !error && data.map(user => (
          <div key={user.id}>
            <h2>{user.name}</h2>
            <p>{user.email}</p>
