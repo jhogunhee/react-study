@@ -1,5 +1,6 @@
 import Counter from './ch02/Counter'
 import TodoList from './ch02/TodoList'
+import UserList from './ch03/UserList'
 
 function App() {
   return (
@@ -8,6 +9,8 @@ function App() {
       <Counter />
       <hr className="my-6" />
       <TodoList />
+      <hr className="my-6" />
+      <UserList />
     </div>
   )
 }
