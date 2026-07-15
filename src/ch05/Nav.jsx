@@ -13,6 +13,8 @@ function Nav() {
       <Link to="/">카운터</Link>
       <Link to="/todo">투두</Link>
       <Link to="/users">유저 목록</Link>
+      {/* TODO 11(ch06): to="/users-q" 링크 추가 — useFetch 버전과 캐싱 차이 비교용 */}
+      <Link to="/users-q">유저 목록 V2</Link>
       {/* TODO 6: 버튼 하나 추가 - onClick={toggleTheme}, 현재 theme에 따라 문구 다르게 ('라이트 모드' / '다크 모드') */}
       <button onClick={toggleTheme}>
         {theme === 'light' ? '다크 모드' : '라이트 모드'}
