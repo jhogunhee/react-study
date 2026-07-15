@@ -17,7 +17,9 @@ npm run dev
 | ch03 | useEffect, 데이터 페칭, 로딩/에러 처리 | ✅ 완료 |
 | ch04 | 커스텀 훅 | ✅ 완료 |
 | ch05 | React Router, Context, Zustand | ✅ 완료 |
-| ch06~ | TanStack Query, TypeScript, 실전 프로젝트 | ⬜ |
+| ch06 | TanStack Query — useQuery 캐싱 | ✅ 완료 |
+| ch06+ | useMutation + invalidateQueries (logistics-back API 연동 후) | ⬜ |
+| ch07~ | TypeScript, 실전 프로젝트 | ⬜ |
 
 ## 구조
 
