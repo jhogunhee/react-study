@@ -1,6 +1,8 @@
 # react-study
 리액트 학습 기록
 
+🔗 **배포:** https://jhogunhee.github.io/react-study/
+
 ## 실행 방법
 
 ```bash
@@ -18,8 +20,6 @@ npm run dev
 | ch04 | 커스텀 훅 | ✅ 완료 |
 | ch05 | React Router, Context, Zustand | ✅ 완료 |
 | ch06 | TanStack Query — useQuery 캐싱 | ✅ 완료 |
-| ch06+ | useMutation + invalidateQueries (logistics-back API 연동 후) | ⬜ |
-| ch07~ | TypeScript, 실전 프로젝트 | ⬜ |
 
 ## 구조
 
